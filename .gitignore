@@ -43,3 +43,53 @@ Thumbs.db
 .env
 .env.*
 .secrets/
+
+# ---- Java / IntelliJ ----
+# 컴파일 산출물
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# 로그 및 리포트 파일
+*.log
+
+# 프로젝트 빌드 디렉토리
+target/
+out/
+bin/
+
+# Gradle / Maven 캐시
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+.mvn/
+mvnw
+mvnw.cmd
+
+# IntelliJ IDEA 설정 파일 (개별 환경 전용)
+*.iml
+*.ipr
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/httpRequests
+.idea/libraries
+.idea/shelf/
+.idea/modules.xml
+.idea/sonarlint/
+.idea/deploymentTargetDropDown.xml
+.idea/assetWizardSettings.xml
+.idea/caches/
+.idea/compiler.xml
+.idea/gradle.xml
+.idea/jarRepositories.xml
+
+# Eclipse 등 타 IDE 관련 (혹시 같이 열 때 대비)
+.classpath
+.project
+.settings/
